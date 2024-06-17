@@ -4,7 +4,7 @@
 
 1. Clona este repositorio.
    ```bash
-   git clone https://github.com/jonmircha/starter-project-eleventy-github-pages.git
+   git clone https://github.com/fmbll/project-eleventy.git
    ```
 1. Instala las dependencias.
    ```bash
@@ -34,8 +34,4 @@
 1. Configura el Servicio de _GitHub Pages_.
 1. Felíz despliegue 🥳 🦡🎈.
 
-[Aquí](https://jonmircha.github.io/starter-project-eleventy-github-pages/) puedes ver la demo de este _starter project_.
-
-Tambien puedes ver mi Curso de _11ty_ en _YouTube_, da clic a la siguiente imagen. 👇🏻
-
-[![Curso Eleventy](code/img/curso-youtube.png)](https://www.youtube.com/watch?v=yCF9l4_E5rI)
+[Aquí](https://fmbll.github.io/project-eleventy/) puedes ver la demo de este _project eleventy_.
