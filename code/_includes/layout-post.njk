@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+        <meta name="description" content="{{ description }}">
+        <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <main class="container">
+            {% include "header.njk" %}
+            <section>
+                {{ content | safe }}
+            </section>
+            <aside>
+                <h2>Ver los siguientes capiturlos</h2>
+                <ul>
+                    {% for article in collections.capitulos %}
+                        <li>
+                            <a href="{{ article.url }}">
+                                {{ article.data.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </aside>
+            {% include "footer.njk" %}
+        </main>
+        <script type="module" src="/js/main.js"></script>
+    </body>
+</html>

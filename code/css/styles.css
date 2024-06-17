@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+}
+
+hr {
+  border-bottom: thin solid #d1d1d1;
+  margin: 1em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.container__image {
+  width: 100%;
+  max-width: 150px;
+  margin: 2em 0;
+}
